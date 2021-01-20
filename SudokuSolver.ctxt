@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=SudokuSolver
+comment1.params=puzzle
+comment1.target=SudokuSolver(SudokuPuzzle)
+comment1.text=\n\ Constructs\ a\ SudokuSolver\ in\ which\ copies\ a\ SudokuPuzzle\n\ \n\ @param\ \ \ \ \ \ \ a\ SudokuPuzzle\n
+comment2.params=game
+comment2.target=boolean\ solve(SudokuPuzzle)
+comment2.text=\n\ Solves\ the\ SudokuPuzzle\n\n\ @param\ \ game\ -\ a\ SudokuPuzzle\ to\ be\ solved\n\ @return\ \ \ \ int\ 1\ if\ SudokuPuzzle\ game\ is\ complete,\ -1\ if\ not\n
+numComments=3

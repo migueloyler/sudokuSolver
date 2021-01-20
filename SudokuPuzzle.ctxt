@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=SudokuPuzzle
+comment1.params=filename
+comment1.target=SudokuPuzzle(java.lang.String)
+comment1.text=\n\ Reads\ in\ a\ text\ file\ and\ constructs\ a\ SudokuPuzzle\n\ \n\ @param\ \ \ a\ text\ file\ -\ str\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ String\ representation\ of\ a\ SudokuPuzzle\ \ \ \n
+comment3.params=obj
+comment3.target=boolean\ equals(java.lang.Object)
+comment3.text=\n\ Checks\ whether\ obj\ is\ equivalent\ to\ this\ object\ (whether\ 2\ Sudoku\n\ \ \ \ \ \ Puzzles\ match)\n\n\ @param\ \ \ \ \ obj\ \ an\ Object\ \ \ (a\ Sudoku\ Puzzle)\n\ @return\ \ \ \ true\ if\ obj\ matches\ this\ object\ (the\ Sudoku\ Puzzles\ match)\n
+comment4.params=digit\ row\ col
+comment4.target=boolean\ isLegalMove(int,\ int,\ int)
+comment4.text=\n\ Checks\ to\ see\ if\ a\ digit\ placement\ is\ legal\ given\ row\ and\ col\n\ \n\ @param\ \ \ digit\ -\ number\ being\ placed\ -\ int\n\ @param\ \ \ row\ -\ int\n\ @param\ \ \ col\ -\ int\n\ \n\ @return\ \ true\ if\ digit\ placement\ is\ legal.\ \n
+comment5.params=digit\ row\ col
+comment5.target=void\ interact(int,\ int,\ int)
+comment5.text=\n\ A\ void\ method\ in\ which\ interacts\ with\ the\ SudokuPuzzle\n\ \n\ @param\ \ \ digit\ -\ number\ being\ placed\ -\ int\n\ @param\ \ \ row\ -\ int\n\ @param\ \ \ col\ -\ int\n
+comment6.params=
+comment6.target=int[]\ zeroSpot()
+comment6.text=\n\ Searches\ for\ an\ empty\ spot\ (zero)\ in\ the\ Sudoku\ board\n\ \n\ @return\ \ \ \ coordinates\ of\ a\ zero\ represented\ as\ an\ array.\ \n
+comment7.params=
+comment7.target=boolean\ gameOver()
+comment7.text=\n\ Checks\ to\ see\ if\ the\ SudokuPuzzle\ game\ is\ over.\ \n\ \n\ @return\ \ \ \ \ \ true\ if\ the\ SudokuPuzzle\ is\ complete\n
+numComments=8

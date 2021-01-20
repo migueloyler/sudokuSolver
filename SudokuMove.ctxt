@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SudokuMove
+comment0.text=\n\ A\ class\ which\ represents\ a\ move\ in\ the\ Sudoku\ game\n\n\ @author\ Vincent\ Dong\ and\ Miguel\ Oyler\n\ @version\ 3/28/18\n
+comment1.params=digit\ row\ col
+comment1.target=SudokuMove(int,\ int,\ int)
+comment1.text=\n\ Constructs\ a\ SudokuMove,\ represents\ a\ single\ move\ in\ SudokuPuzzle\n
+comment2.params=
+comment2.target=int\ getRow()
+comment2.text=\n\ Gets\ the\ row\n
+comment3.params=
+comment3.target=int\ getCol()
+comment3.text=\n\ Gets\ the\ col\n
+comment4.params=
+comment4.target=int\ getDigit()
+comment4.text=\n\ Gets\ the\ digit\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ String\ representation\ of\ a\ SudokuMove\n
+numComments=6
